@@ -61,11 +61,13 @@ GamePlayManager={
   
     },
     onTap: function(){
-        if(!activate){
+
+        activate=true;
+        /* if(!activate){
             activate=true;
         }else{
             activate=false;
-        }
+        } */
     },
     create:function(){
         this.screen=this.gamePanel();
