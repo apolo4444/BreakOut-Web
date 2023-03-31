@@ -214,8 +214,6 @@ GamePlayManager={
         ball.x+=this.ballX;
         ball.y+=this.ballY;
 
-        ball.x+=this.ballX;
-        ball.y+=this.ballY;
     },
 
     update:function(){
